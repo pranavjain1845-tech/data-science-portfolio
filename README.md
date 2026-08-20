@@ -7,9 +7,10 @@ I'm a Data Science student at the University of Iowa interested in data analytic
 ## Projects
 
 ### 🎬 Movie Recommendation System
-A movie recommendation system built using Python and data science techniques.
 
-**Technologies:** Python, Pandas, NumPy, Machine Learning
+A movie rating prediction and recommendation system built with Python using exploratory data analysis, baseline prediction methods, and user-based collaborative filtering on the MovieLens 100K dataset.
+
+**Technologies:** Python, NumPy, Matplotlib, Machine Learning
 
 [View Project](./movie-recommendation-system)
 
