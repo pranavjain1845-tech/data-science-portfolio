@@ -141,3 +141,39 @@ User similarity
 K-nearest neighbors
 Collaborative filtering
 Comparing multiple prediction approaches
+
+## Results
+
+The models were evaluated using Root Mean Squared Error (RMSE), where lower values indicate better prediction performance.
+
+### Phase 2
+
+The baseline methods produced RMSE values of approximately:
+
+| Method | Approx. RMSE |
+|---|---:|
+| Random | 1.89 |
+| User Average | 1.05 |
+| Movie Average | 1.03 |
+| Demographic Average | 1.07 |
+| Genre Average | 1.04 |
+
+Among the baseline methods, Movie Average produced the lowest RMSE.
+
+### Phase 3
+
+Collaborative filtering was then compared with the baseline methods using different numbers of nearest neighbors.
+
+| Method | Approx. RMSE |
+|---|---:|
+| Random | 1.88 |
+| Mean User | 1.04 |
+| Mean Movie | 1.02 |
+| Demographic | 1.06 |
+| Genre | 1.03 |
+| CF k=10 | 1.09 |
+| CF k=100 | 1.07 |
+| CF k=500 | 0.95 |
+| CF all | 0.95 |
+
+The best-performing approaches were collaborative filtering with 500 neighbors and collaborative filtering using all available neighbors. These approaches achieved an RMSE of approximately 0.95, outperforming the baseline methods tested in this project.
